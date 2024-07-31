@@ -20,7 +20,7 @@ interface IGraphqlRequestBody {
     operation: OperationType
   }
 
-const getFirstGraphqlOperation = (
+export const getFirstGraphqlOperation = (
     graphqlBody: IGraphqlRequestBody[]
   ): IOperationDetails | undefined => {
     try {
@@ -129,7 +129,7 @@ const isParsedGraphqlRequestValid = (
     return isValid
   }
 
-const parseGraphqlBody = (
+export const parseGraphqlBody = (
     body: string
   ) => {
     try {
@@ -287,7 +287,7 @@ const getRequestBodyFromWebRequestBodyDetails = (
     return body
   }
 
-const getRequestBody = (details: chrome.webRequest.WebRequestBodyDetails, headers = []): string | undefined => {
+export const getRequestBody = (details: chrome.webRequest.WebRequestBodyDetails, headers = []): string | undefined => {
   try {
       return getRequestBodyFromWebRequestBodyDetails(details, headers[0] || []) 
   } catch (e) {
