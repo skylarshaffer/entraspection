@@ -2,7 +2,7 @@
   --palette-trans-clear: var(--lego-color-12);
   --palette-white: var(--lego-color-1);
   --palette-black: var(--lego-color-11);
-  --palette-dark-azure: var(--lego-color-153);
+  --palette-dark-green: #025033;
   --palette-light-pink: var(--lego-color-104);
   --palette-dark-pink: var(--lego-color-47);
   --palette-yellowish-green: var(--lego-color-158);
@@ -15,7 +15,7 @@
   --main-bg-color: var(--palette-trans-clear);
   --text-color: var(--palette-black);
   --logo-color: var(--palette-white);
-  --header-color: var(--palette-dark-azure);
+  --header-color: var(--palette-dark-green);
   --button-text-color: var(--palette-pure-white);
   --overlay-color: var(--palette-overlay-black);
   --global-shadow: rgba(33, 33, 33, 0.4) -3.5rem 0 1rem -3rem inset,
@@ -98,7 +98,7 @@ span.siftarm {
   z-index: -1;
   height: 3.5rem;
   width: 100%;
-  background-color: var(--palette-dark-azure);
+  background-color: var(--palette-dark-green);
 }
 
 header {

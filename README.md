@@ -10,15 +10,15 @@ A good website to test with is lego.com!
 
 https://github.com/user-attachments/assets/0cde5077-e403-4731-9d99-26e3b72c4753
 
-![graph-test-demo](https://github.com/user-attachments/assets/56a73495-3b12-4c5d-bc33-b57aea923a17)
+![entraspection-demo](https://github.com/user-attachments/assets/56a73495-3b12-4c5d-bc33-b57aea923a17)
 
 ## Description
 
-Testing a domain for GraphQL vulnerabilities has never been easier! Don't worry about installing multiple package managers, dependencies, and copying and pasting results, let graph-test do it for you!
+Testing a domain for GraphQL vulnerabilities has never been easier! Don't worry about installing multiple package managers, dependencies, and copying and pasting results, let entraspection do it for you!
 
 ## Usage
 
-Just enter your root domain (example.com) in the input field and submit. Watch graph-test work its magic. As Goctopus discovers endpoints, they will show up below.
+Just enter your root domain (example.com) in the input field and submit. Watch entraspection work its magic. As Goctopus discovers endpoints, they will show up below.
 
 Each endpoint with schema introspection on will output the schema. Endpoints that are closed or leaking will be passed to Clairvoyance for further testing.
 
