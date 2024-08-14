@@ -8,7 +8,7 @@ export function Header() {
           <ul className="">
             <li className="logo">
               <Link to="/" className="">
-                <h2>graph-test</h2>
+                <h2>entraspection</h2>
               </Link>
             </li>
           </ul>
